@@ -1,5 +1,3 @@
-## Version 1.1.0 - Biometric Authentication Update
-
 ### New Features
 - **Biometric Authentication**:
   - Added fingerprint/face ID authentication as an alternative to PIN

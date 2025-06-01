@@ -1,9 +1,6 @@
 import 'dart:convert';
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import '../providers/theme_provider.dart';
-import '../providers/settings_provider.dart';
 import '../widgets/app_bar.dart';
 import '../models/task.dart';
 import '../models/category.dart';

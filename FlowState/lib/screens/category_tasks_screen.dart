@@ -276,7 +276,9 @@ class _CategoryTasksScreenState extends State<CategoryTasksScreen> {
   Color _getCategoryColor() {
     if (widget.category.color is int) {
       return Color(widget.category.color as int);
-    } else    return widget.category.color as Color;
+    } else {
+      return widget.category.color;
+    }
   
     // Default color if type is unexpected
     return Colors.blue;
